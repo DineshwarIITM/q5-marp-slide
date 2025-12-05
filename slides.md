@@ -9,13 +9,10 @@ _header: |
 
 <style>
 /* Custom Marp Theme Specification */
-.custom-theme {
-  font-family: 'Inter', sans-serif;
-}
-
 section {
   padding: 50px 70px;
   background-color: #f7f7ff;
+  font-family: 'Inter', sans-serif;
 }
 
 h1, h2, h3 {
@@ -40,6 +37,14 @@ p {
 .marp-pagination {
   color: #ff7043 !important;
   font-size: 0.9rem;
+}
+
+.lead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 </style>
 
@@ -88,8 +93,7 @@ $$O(n \log n)$$
 
 ---
 
-<!-- _backgroundImage: url('https://placehold.co/1200x800/262626/FFFFFF/png?text=Product+Diagram+Blueprint') -->
-<!-- _class: lead invert -->
+![bg](https://placehold.co/1920x1080/262626/FFFFFF/png?text=Feature+Deployment+Pipeline)
 
 # Feature Deployment Pipeline
 
